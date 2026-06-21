@@ -12,12 +12,12 @@ This repository contains my C++ learning projects, experiments, and notes.
 ## Topics Covered
 
 * Classes
+* Pointers
+* References
 
 ## Future Topics
 
-* Pointers
 * Stacks
-* References
 * Structs
 * Dynamic Arrays
 * Linked Lists
