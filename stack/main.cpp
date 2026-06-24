@@ -27,7 +27,6 @@ public:
 
 void Stack::push(int value)
 {
-    std::cout << "push called\n";
     if(size == capacity)
     {
         std::cout << "Stack overflow.\n";
@@ -50,7 +49,6 @@ bool Stack::pop()
 
 int Stack::top()
 {
-    std::cout << "top called\n";
 
     if(size == 0)
     {
