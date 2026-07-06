@@ -1,56 +1,83 @@
-# C++ Learning Journey
+# Data Structures in C++
 
-This repository documents my journey of learning C++ through hands-on projects, data structure implementations, and experiments.
+This repository documents my journey of learning data structures by implementing them from scratch in modern C++.
+
+Rather than immediately using the C++ Standard Library, the goal is to understand how common data structures work internally, why they are designed the way they are, and the trade-offs behind each implementation.
+
+---
 
 ## Goals
 
-* Learn modern C++
-* Build a strong understanding of data structures and algorithms
-* Improve problem-solving and debugging skills
-* Explore Linux, systems programming, and low-level concepts
-* Develop the foundations required for software engineering roles
+* Develop a strong understanding of core data structures
+* Learn the algorithms behind each implementation
+* Practice writing clean and modern C++
+* Analyze time and space complexity
+* Build a solid foundation for technical interviews and software engineering
 
-## Fundamentals Covered
+---
 
-* Variables and Data Types
-* Operators
-* Control Flow (if/else, loops)
-* Functions
-* Arrays
-* Structs
-* Classes
-* Constructors
-* Destructors
-* References
-* Pointers
-* Dynamic Memory Allocation
+## Topics Covered
 
-## Data Structures Covered
+### Linear Data Structures
 
 * Dynamic Arrays
 * Linked Lists
 * Stacks
+* Queues
 * Circular Queues
 
-## Future Topics
+### Non-Linear Data Structures *(Planned)*
 
-* Queues
-* Recursion
-* Trees
+* Binary Trees
+* Binary Search Trees
+* Heaps
 * Hash Tables
-* Sorting Algorithms
-* Searching Algorithms
 * Graphs
-* Object-Oriented Programming
-* Templates
-* Standard Template Library (STL)
-* Memory Management
-* File Handling
+* Tries
 
-## Notes
+### Algorithms *(Planned)*
 
-This repository serves as a learning log and portfolio of my progress in C++.
+* Searching Algorithms
+* Sorting Algorithms
+* Tree Traversals
+* Graph Traversals (BFS & DFS)
+* Recursion
+* Basic Dynamic Programming
 
-Most data structures and algorithms are implemented from scratch to understand how they work internally before using their standard library equivalents.
+---
 
-As my knowledge grows, code quality, design decisions, and implementations will continue to improve.
+## Learning Approach
+
+Each data structure is implemented from scratch before using its STL equivalent.
+
+For every implementation, I aim to understand:
+
+* The problem it solves
+* How it works internally
+* Time and space complexity
+* Advantages and disadvantages
+* Common use cases
+* When an STL container would be a better choice
+
+---
+
+## Repository Structure
+
+As the repository grows, each data structure will live in its own directory along with example programs and notes.
+
+```text
+/
+├── DynamicArray/
+├── LinkedList/
+├── Stack/
+├── Queue/
+└── README.md
+```
+
+---
+
+## Long-Term Goal
+
+This repository serves as a personal reference while preparing for data structures, algorithms, and technical interviews.
+
+It also documents my progression from building fundamental data structures manually to understanding and effectively using the C++ Standard Library.
