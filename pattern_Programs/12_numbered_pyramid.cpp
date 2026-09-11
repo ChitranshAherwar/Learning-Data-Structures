@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+{
+    int rows;
+    std::cout << "Enter numbers of rows: ";
+    std::cin >> rows;
+
+    for (int i = 0; i < rows; i++){
+
+        for (int j = 0; j < rows - i - 1; j++)
+        {
+            std::cout << ' ';
+        }
+
+        for (int j = 0; j < i + i + 1; j++)
+        {
+            std::cout << j+1;
+        }
+
+        std::cout << '\n';
+    }
+}
