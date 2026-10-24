@@ -26,9 +26,11 @@ Rather than immediately using the C++ Standard Library, the goal is to understan
 * Queues
 * Circular Queues
 
+### Non-Linear Data Structures
+* Binary Tree
+
 ### Non-Linear Data Structures *(Planned)*
 
-* Binary Trees
 * Binary Search Trees
 * Heaps
 * Hash Tables

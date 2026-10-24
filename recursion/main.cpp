@@ -1,17 +1,17 @@
 #include<iostream>
 
-int factorial(int n)
+int fibonacci(int n)
 {
-    if(n == 0){
-        return 1;
-    }
-    return n * factorial(n-1);
+    if (n == 0)
+    return 0;
 
+    if (n == 1)
+    return 1;
+
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main()
 {
-    std::cout << factorial(5) << '\n';
+    std::cout << fibonacci(10);
 }
-// Cmon man it's too easy.
-// To be continued in Binary Trees.
